@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{d49ecb5a-7405-42da-91be-39cdb6318897}">
+		<property name="name">
+			<value>Fire</value>
+		</property>
+		<relationship name="folder">
+			<destination>{34f3951a-ffb0-48ee-b535-65bcaefcadcc}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{cf8b0fc1-05d9-4e5f-a67e-72f39d9882e0}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{cf8b0fc1-05d9-4e5f-a67e-72f39d9882e0}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="automators">
+			<destination>{3d5b89c6-fd5f-45cd-9b06-539af5d118d2}</destination>
+		</relationship>
+		<relationship name="modulators">
+			<destination>{8c2bd5af-b23d-42a9-a221-dd0a8483e532}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{3d5b89c6-fd5f-45cd-9b06-539af5d118d2}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>cursorPosition</value>
+		</property>
+	</object>
+	<object class="SeekModulator" id="{8c2bd5af-b23d-42a9-a221-dd0a8483e532}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.69999998807907104</value>
+		</property>
+		<property name="speedDescending">
+			<value>0.25</value>
+		</property>
+		<property name="asymmetric">
+			<value>true</value>
+		</property>
+	</object>
+</objects>
