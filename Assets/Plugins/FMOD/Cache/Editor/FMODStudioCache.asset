@@ -413,7 +413,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 7999401489240975332}
   cacheVersion: 131857
-  cacheTime: 638998536508484067
+  cacheTime: 639011599729760575
   SerializableEventsDict:
   - key: event:/Ambient/sfx_amb_forest
     index: 0
@@ -835,7 +835,7 @@ MonoBehaviour:
   Path: "Assets/D\u017Awi\u0119k w grach - tavern/Build/Desktop/Desktop/Interaction.bank"
   Name: Desktop/Interaction
   StudioPath: bank:/Interaction
-  lastModified: 638998536508084432
+  lastModified: 639011599729760575
   FileSizes:
   - Name: Desktop
     Value: 2181952
