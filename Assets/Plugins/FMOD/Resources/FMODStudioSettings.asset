@@ -524,7 +524,7 @@ MonoBehaviour:
   m_Name: FMODStudioSettings
   m_EditorClassIdentifier: 
   switchSettingsMigration: 1
-  HasSourceProject: 1
+  HasSourceProject: 0
   HasPlatforms: 1
   sourceProjectPath: "Assets/D\u017Awi\u0119k w grach - tavern/D\u017Awi\u0119k w
     grach - tavern.fspro"

@@ -22,5 +22,12 @@
 	</object>
 	<object class="MixerBusPanner" id="{2693bb68-2359-48d3-a7d0-49216c852446}" />
 	<object class="MixerBusFader" id="{9fe91cc4-e127-4252-be11-e6d08bba8cba}" />
-	<object class="MultibandEqEffect" id="{0606ca05-433e-424c-9ea7-1131b217e735}" />
+	<object class="MultibandEqEffect" id="{0606ca05-433e-424c-9ea7-1131b217e735}">
+		<property name="frequencyA">
+			<value>96.5813828</value>
+		</property>
+		<property name="qualityA">
+			<value>2.31034517</value>
+		</property>
+	</object>
 </objects>
