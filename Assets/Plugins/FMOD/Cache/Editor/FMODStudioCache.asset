@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: "Assets/D\u017Awi\u0119k w grach - tavern/Build/Desktop/Desktop/Amb.bank"
   Name: Desktop/Amb
   StudioPath: bank:/Amb
-  lastModified: 639015053840467677
+  lastModified: 639015157599043472
   FileSizes:
   - Name: Desktop
     Value: 3684608
@@ -35,7 +35,7 @@ MonoBehaviour:
   Path: "Assets/D\u017Awi\u0119k w grach - tavern/Build/Desktop/Music.bank"
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639015003018521591
+  lastModified: 638998535223413159
   FileSizes:
   - Name: Desktop
     Value: 977024
@@ -81,7 +81,7 @@ MonoBehaviour:
   Path: "Assets/D\u017Awi\u0119k w grach - tavern/Build/Desktop/Player.bank"
   Name: Player
   StudioPath: bank:/Player
-  lastModified: 639015003018521591
+  lastModified: 638998535224347428
   FileSizes:
   - Name: Desktop
     Value: 87584
@@ -101,7 +101,7 @@ MonoBehaviour:
   Path: "Assets/D\u017Awi\u0119k w grach - tavern/Build/Desktop/Desktop/Player.bank"
   Name: Desktop/Player
   StudioPath: bank:/Player
-  lastModified: 639015038141521304
+  lastModified: 639015157601541156
   FileSizes:
   - Name: Desktop
     Value: 87584
@@ -218,35 +218,6 @@ MonoBehaviour:
   MinDistance: 6
   MaxDistance: 22
   Length: 77538
---- !u!114 &-3339105177504591426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: 
-  Guid:
-    Data1: -1898166834
-    Data2: 1103292421
-    Data3: 2145013893
-    Data4: -413509812
-  Banks:
-  - {fileID: -1263021430218014131}
-  - {fileID: -1263021430218014131}
-  - {fileID: -1263021430218014131}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
 --- !u!114 &-2542145669340278091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -314,10 +285,10 @@ MonoBehaviour:
   Path: "Assets/D\u017Awi\u0119k w grach - tavern/Build/Desktop/Desktop/Master.bank"
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 639015095630011934
+  lastModified: 639015162974588609
   FileSizes:
   - Name: Desktop
-    Value: 6528
+    Value: 5674
   Exists: 1
 --- !u!114 &-516780768182053510
 MonoBehaviour:
@@ -348,6 +319,34 @@ MonoBehaviour:
   MinDistance: 6
   MaxDistance: 20
   Length: 40000
+--- !u!114 &-394815042096792791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: 
+  Guid:
+    Data1: -1898166834
+    Data2: 1103292421
+    Data3: 2145013893
+    Data4: -413509812
+  Banks:
+  - {fileID: -1263021430218014131}
+  - {fileID: -1263021430218014131}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-350926463195053629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -363,7 +362,7 @@ MonoBehaviour:
   Path: "Assets/D\u017Awi\u0119k w grach - tavern/Build/Desktop/Desktop/Music.bank"
   Name: Desktop/Music
   StudioPath: bank:/Music
-  lastModified: 639015038140433061
+  lastModified: 639015157600604918
   FileSizes:
   - Name: Desktop
     Value: 977024
@@ -435,7 +434,8 @@ MonoBehaviour:
   - {fileID: 735801797422826975}
   - {fileID: -5232367217661448288}
   - {fileID: -5774256944897059768}
-  - {fileID: -3339105177504591426}
+  - {fileID: 153169861616896354}
+  - {fileID: -394815042096792791}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5541616272970210972}
@@ -443,7 +443,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 7999401489240975332}
   cacheVersion: 131857
-  cacheTime: 639015095630022003
+  cacheTime: 639015162974593695
   SerializableEventsDict:
   - key: event:/Ambient/sfx_amb_forest
     index: 0
@@ -471,6 +471,36 @@ MonoBehaviour:
     index: 11
   - key: event:/Stare/sfx_player_jump
     index: 12
+  - key: 
+    index: 13
+--- !u!114 &153169861616896354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: 
+  Guid:
+    Data1: -1898166834
+    Data2: 1103292421
+    Data3: 2145013893
+    Data4: -413509812
+  Banks:
+  - {fileID: -1263021430218014131}
+  - {fileID: -1263021430218014131}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &308683468718892304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -486,7 +516,7 @@ MonoBehaviour:
   Path: "Assets/D\u017Awi\u0119k w grach - tavern/Build/Desktop/Amb.bank"
   Name: Amb
   StudioPath: bank:/Amb
-  lastModified: 639015003017855086
+  lastModified: 638998535203414304
   FileSizes:
   - Name: Desktop
     Value: 3684608
@@ -619,7 +649,7 @@ MonoBehaviour:
   Path: "Assets/D\u017Awi\u0119k w grach - tavern/Build/Desktop/Interaction.bank"
   Name: Interaction
   StudioPath: bank:/Interaction
-  lastModified: 639015003018445889
+  lastModified: 638998535214852971
   FileSizes:
   - Name: Desktop
     Value: 2181952
@@ -668,7 +698,6 @@ MonoBehaviour:
     Data4: 1811184123
   Banks:
   - {fileID: 5541616272970210972}
-  - {fileID: -1263021430218014131}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -717,7 +746,7 @@ MonoBehaviour:
   Path: "Assets/D\u017Awi\u0119k w grach - tavern/Build/Desktop/Master.bank"
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639015003018445889
+  lastModified: 638998535214883114
   FileSizes:
   - Name: Desktop
     Value: 3780
@@ -845,7 +874,7 @@ MonoBehaviour:
   Path: "Assets/D\u017Awi\u0119k w grach - tavern/Build/Desktop/Master.strings.bank"
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639015003018445889
+  lastModified: 638998535214894174
   FileSizes:
   - Name: Desktop
     Value: 2070
@@ -865,7 +894,7 @@ MonoBehaviour:
   Path: "Assets/D\u017Awi\u0119k w grach - tavern/Build/Desktop/Desktop/Interaction.bank"
   Name: Desktop/Interaction
   StudioPath: bank:/Interaction
-  lastModified: 639015038129221654
+  lastModified: 639015157599965295
   FileSizes:
   - Name: Desktop
     Value: 2181952

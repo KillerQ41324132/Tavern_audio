@@ -2552,10 +2552,10 @@ MonoBehaviour:
   snapshotActivated: 1
   outsideSnapshot:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
+      Data1: -1898166834
+      Data2: 1103292421
+      Data3: 2145013893
+      Data4: -413509812
     Path: 
 --- !u!1 &688602384
 GameObject:
@@ -3391,7 +3391,7 @@ MonoBehaviour:
       Data4: -1629731739
     Path: event:/Ambient/sfx_amb_forest
   Event: 
-  EventPlayTrigger: 0
+  EventPlayTrigger: 1
   EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -4510,7 +4510,7 @@ MonoBehaviour:
       Data4: -1971747742
     Path: event:/Music/mfx_tavern_music
   Event: 
-  EventPlayTrigger: 0
+  EventPlayTrigger: 1
   EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -4690,7 +4690,7 @@ MonoBehaviour:
       Data4: 83648382
     Path: event:/Ambient/sfx_amb_tavern
   Event: 
-  EventPlayTrigger: 0
+  EventPlayTrigger: 1
   EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
