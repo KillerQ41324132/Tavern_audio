@@ -218,6 +218,35 @@ MonoBehaviour:
   MinDistance: 6
   MaxDistance: 22
   Length: 77538
+--- !u!114 &-3339105177504591426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: 
+  Guid:
+    Data1: -1898166834
+    Data2: 1103292421
+    Data3: 2145013893
+    Data4: -413509812
+  Banks:
+  - {fileID: -1263021430218014131}
+  - {fileID: -1263021430218014131}
+  - {fileID: -1263021430218014131}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-2542145669340278091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -285,10 +314,10 @@ MonoBehaviour:
   Path: "Assets/D\u017Awi\u0119k w grach - tavern/Build/Desktop/Desktop/Master.bank"
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 639015053315738757
+  lastModified: 639015095630011934
   FileSizes:
   - Name: Desktop
-    Value: 4594
+    Value: 6528
   Exists: 1
 --- !u!114 &-516780768182053510
 MonoBehaviour:
@@ -406,7 +435,7 @@ MonoBehaviour:
   - {fileID: 735801797422826975}
   - {fileID: -5232367217661448288}
   - {fileID: -5774256944897059768}
-  - {fileID: 8463627546717837694}
+  - {fileID: -3339105177504591426}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5541616272970210972}
@@ -414,7 +443,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 7999401489240975332}
   cacheVersion: 131857
-  cacheTime: 639015053840467677
+  cacheTime: 639015095630022003
   SerializableEventsDict:
   - key: event:/Ambient/sfx_amb_forest
     index: 0
@@ -841,33 +870,6 @@ MonoBehaviour:
   - Name: Desktop
     Value: 2181952
   Exists: 1
---- !u!114 &8463627546717837694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: 
-  Guid:
-    Data1: -1898166834
-    Data2: 1103292421
-    Data3: 2145013893
-    Data4: -413509812
-  Banks:
-  - {fileID: -1263021430218014131}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
 --- !u!114 &8540721414817629984
 MonoBehaviour:
   m_ObjectHideFlags: 0

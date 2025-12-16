@@ -86,25 +86,25 @@ public class Doors : MonoBehaviour, IInteractable
     /// <summary>
     /// Aktywuje lub dezaktywuje snapshot dźwiękowy pokoju.
     /// </summary>
-    //private void RoomsSnap()
-    //{
-    //    RoomAmbient roomAmbient = FindObjectOfType<RoomAmbient>();
+    private void RoomsSnap()
+    {
+        RoomAmbient roomAmbient = FindObjectOfType<RoomAmbient>();
 
-    //    // Logika włączania i wyłączania snapshotu.
-    //    if (roomAmbient.ambientActivated && doorsOpened)
-    //    {
-    //        // Dezaktywuje snapshot.
-    //        if (insideRoomSnapshot.isValid())
-    //        {
-    //            insideRoomSnapshot.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-    //            insideRoomSnapshot.release();
-    //        }
-    //    }
-    //    else if (roomAmbient.ambientActivated && !doorsOpened)
-    //    {
-    //        // Aktywuje snapshot.
-    //        insideRoomSnapshot = RuntimeManager.CreateInstance(insideRoomSnap);
-    //        insideRoomSnapshot.start();
-    //    }
-    //}
+        // Logika włączania i wyłączania snapshotu.
+        if (roomAmbient.ambientActivated && doorsOpened)
+        {
+            // Dezaktywuje snapshot.
+            if (insideRoomSnapshot.isValid())
+            {
+                insideRoomSnapshot.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+                insideRoomSnapshot.release();
+            }
+        }
+        else if (roomAmbient.ambientActivated && !doorsOpened)
+        {
+            // Aktywuje snapshot.
+            insideRoomSnapshot = RuntimeManager.CreateInstance(insideRoomSnap);
+            insideRoomSnapshot.start();
+        }
+    }
 }
