@@ -7,6 +7,10 @@
 		<property name="name">
 			<value>Amb</value>
 		</property>
+		<relationship name="masters">
+			<destination>{9a2b7396-6da7-457d-8b4a-fee6566ea130}</destination>
+			<destination>{52f6caf6-f6f0-4ffb-8f11-1c41dbec0347}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{b1813551-730e-42c1-b890-e6c753ab665f}</destination>
 		</relationship>

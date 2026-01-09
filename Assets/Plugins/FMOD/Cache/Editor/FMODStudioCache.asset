@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: "Assets/D\u017Awi\u0119k w grach - tavern/Build/Desktop/Desktop/Amb.bank"
   Name: Desktop/Amb
   StudioPath: bank:/Amb
-  lastModified: 639015157599043472
+  lastModified: 639035738440067557
   FileSizes:
   - Name: Desktop
     Value: 3684608
@@ -35,7 +35,7 @@ MonoBehaviour:
   Path: "Assets/D\u017Awi\u0119k w grach - tavern/Build/Desktop/Music.bank"
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638998535223413159
+  lastModified: 639015003018521591
   FileSizes:
   - Name: Desktop
     Value: 977024
@@ -81,7 +81,7 @@ MonoBehaviour:
   Path: "Assets/D\u017Awi\u0119k w grach - tavern/Build/Desktop/Player.bank"
   Name: Player
   StudioPath: bank:/Player
-  lastModified: 638998535224347428
+  lastModified: 639015003018521591
   FileSizes:
   - Name: Desktop
     Value: 87584
@@ -101,7 +101,7 @@ MonoBehaviour:
   Path: "Assets/D\u017Awi\u0119k w grach - tavern/Build/Desktop/Desktop/Player.bank"
   Name: Desktop/Player
   StudioPath: bank:/Player
-  lastModified: 639015157601541156
+  lastModified: 639035738441860716
   FileSizes:
   - Name: Desktop
     Value: 87584
@@ -285,10 +285,10 @@ MonoBehaviour:
   Path: "Assets/D\u017Awi\u0119k w grach - tavern/Build/Desktop/Desktop/Master.bank"
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 639015162974588609
+  lastModified: 639035770345864587
   FileSizes:
   - Name: Desktop
-    Value: 5674
+    Value: 6224
   Exists: 1
 --- !u!114 &-516780768182053510
 MonoBehaviour:
@@ -319,34 +319,6 @@ MonoBehaviour:
   MinDistance: 6
   MaxDistance: 20
   Length: 40000
---- !u!114 &-394815042096792791
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: 
-  Guid:
-    Data1: -1898166834
-    Data2: 1103292421
-    Data3: 2145013893
-    Data4: -413509812
-  Banks:
-  - {fileID: -1263021430218014131}
-  - {fileID: -1263021430218014131}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
 --- !u!114 &-350926463195053629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -362,7 +334,7 @@ MonoBehaviour:
   Path: "Assets/D\u017Awi\u0119k w grach - tavern/Build/Desktop/Desktop/Music.bank"
   Name: Desktop/Music
   StudioPath: bank:/Music
-  lastModified: 639015157600604918
+  lastModified: 639035738441131808
   FileSizes:
   - Name: Desktop
     Value: 977024
@@ -434,8 +406,9 @@ MonoBehaviour:
   - {fileID: 735801797422826975}
   - {fileID: -5232367217661448288}
   - {fileID: -5774256944897059768}
-  - {fileID: 153169861616896354}
-  - {fileID: -394815042096792791}
+  - {fileID: 4443009625215188280}
+  - {fileID: 6382235407787887380}
+  - {fileID: 8658647790048255564}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5541616272970210972}
@@ -443,7 +416,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 7999401489240975332}
   cacheVersion: 131857
-  cacheTime: 639015162974593695
+  cacheTime: 639035770345874645
   SerializableEventsDict:
   - key: event:/Ambient/sfx_amb_forest
     index: 0
@@ -473,34 +446,6 @@ MonoBehaviour:
     index: 12
   - key: 
     index: 13
---- !u!114 &153169861616896354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: 
-  Guid:
-    Data1: -1898166834
-    Data2: 1103292421
-    Data3: 2145013893
-    Data4: -413509812
-  Banks:
-  - {fileID: -1263021430218014131}
-  - {fileID: -1263021430218014131}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
 --- !u!114 &308683468718892304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -516,7 +461,7 @@ MonoBehaviour:
   Path: "Assets/D\u017Awi\u0119k w grach - tavern/Build/Desktop/Amb.bank"
   Name: Amb
   StudioPath: bank:/Amb
-  lastModified: 638998535203414304
+  lastModified: 639015003017855086
   FileSizes:
   - Name: Desktop
     Value: 3684608
@@ -649,7 +594,7 @@ MonoBehaviour:
   Path: "Assets/D\u017Awi\u0119k w grach - tavern/Build/Desktop/Interaction.bank"
   Name: Interaction
   StudioPath: bank:/Interaction
-  lastModified: 638998535214852971
+  lastModified: 639015003018445889
   FileSizes:
   - Name: Desktop
     Value: 2181952
@@ -731,6 +676,35 @@ MonoBehaviour:
   - Stone
   - Wood
   Exists: 1
+--- !u!114 &4443009625215188280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: 
+  Guid:
+    Data1: -1898166834
+    Data2: 1103292421
+    Data3: 2145013893
+    Data4: -413509812
+  Banks:
+  - {fileID: -1263021430218014131}
+  - {fileID: -1263021430218014131}
+  - {fileID: -1263021430218014131}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &5541616272970210972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -746,7 +720,7 @@ MonoBehaviour:
   Path: "Assets/D\u017Awi\u0119k w grach - tavern/Build/Desktop/Master.bank"
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638998535214883114
+  lastModified: 639015003018445889
   FileSizes:
   - Name: Desktop
     Value: 3780
@@ -803,6 +777,33 @@ MonoBehaviour:
   - Stone
   - Wood
   Exists: 1
+--- !u!114 &6382235407787887380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: 
+  Guid:
+    Data1: -1898166834
+    Data2: 1103292421
+    Data3: 2145013893
+    Data4: -413509812
+  Banks:
+  - {fileID: -1263021430218014131}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &6618805551232702947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -874,7 +875,7 @@ MonoBehaviour:
   Path: "Assets/D\u017Awi\u0119k w grach - tavern/Build/Desktop/Master.strings.bank"
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638998535214894174
+  lastModified: 639015003018445889
   FileSizes:
   - Name: Desktop
     Value: 2070
@@ -894,7 +895,7 @@ MonoBehaviour:
   Path: "Assets/D\u017Awi\u0119k w grach - tavern/Build/Desktop/Desktop/Interaction.bank"
   Name: Desktop/Interaction
   StudioPath: bank:/Interaction
-  lastModified: 639015157599965295
+  lastModified: 639035738440881615
   FileSizes:
   - Name: Desktop
     Value: 2181952
@@ -927,6 +928,34 @@ MonoBehaviour:
   - {fileID: -2501118724356154669}
   MinDistance: 1
   MaxDistance: 20
+  Length: 0
+--- !u!114 &8658647790048255564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: 
+  Guid:
+    Data1: -1898166834
+    Data2: 1103292421
+    Data3: 2145013893
+    Data4: -413509812
+  Banks:
+  - {fileID: -1263021430218014131}
+  - {fileID: -1263021430218014131}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
   Length: 0
 --- !u!114 &9091883612267194923
 MonoBehaviour:
